@@ -1,11 +1,13 @@
 {
-  "homepage": "http://mlc2020.github.io/Baby
+  "homepage": "http://mlc2020.github.io/Personal-Website/",
   "name": "first-site",
   "version": "1.0.0",
   "description": "My first html site",
   "main": "index.js",
   "scripts": {
-    "test": "echo"
+    "test": "echo",
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,8 @@
   ],
   "author": "Mihir Chadaga",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "gh-pages": "^2.2.0"
   }
 }
