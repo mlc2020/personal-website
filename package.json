@@ -1,0 +1,23 @@
+{
+  "homepage": "http://mlc2020.github.io/Baby
+  "name": "first-site",
+  "version": "1.0.0",
+  "description": "My first html site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "first",
+    "site"
+  ],
+  "author": "Mihir Chadaga",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
